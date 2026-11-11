@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/API/soma
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"numero1\": 10,\r
+
+    \    \"numero2\": 22\r
+
+    }"
+order: 1000
